@@ -546,10 +546,6 @@ except Exception:
     type = 0
 if type == 1:
     nm = int(input("Enter Number of Calls To Send(Maximum 15): "))
-    if nm > 15:
-        print("\t\tYou Have Entered " + str(nm) +
-              ".\n\tNormalizing Value To 15")
-        nm = 15
     dl = float(input("Enter Delay time (in seconds) [Recommended 10 sec ] : "))
 elif type == 0:
     if cc == "91":
